@@ -51,7 +51,8 @@ span {
 }
 
 .video {
-  border: 2px solid red;
+  text-align: center;
+  /* border: 2px solid red; */
   margin: 2px;
   border-radius: 5px;
   padding: 20px;
@@ -63,4 +64,5 @@ ul {
 
 ul li {
   display: inline-block;
+  margin-left: 5px;
 }
