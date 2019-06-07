@@ -1,0 +1,737 @@
+﻿<!DOCTYPE html>
+    <html>
+    <head>
+        <title>Editor Help</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ <!--       <link rel="stylesheet" type="text/css" href="sfghelp.css">. -->
+
+
+<style>
+    body {
+  background-color: white;
+  color: black;
+  margin: 0;
+  font-family: Arial, Verdana, sans-serif;
+}
+
+a:link {color: #0000ff;}
+a:visited {color: black;}
+a:hover {color: blue;}
+a:active {color: #f1f1f1;}
+h1 {display: inline-block;}
+
+.topnav {
+  overflow: hidden;
+  background-color: white;
+  color: black;
+  margin: auto;
+  width: 50%;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: black;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+</style>
+
+    </head>
+    <body id="composer">
+
+  <!--   MENU  -->
+
+<div class="topnav" id="myTopnav" style="text-align: center;">
+  <a href="six-foot-games.html">Home</a>
+  <a href="ComposerHelp.html">Composer</a>
+  <a href="TextEditorHelp.html">Text Editor</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<!--  END MENU  -->
+
+<!-- Page content -->
+
+<div class="container">
+
+	<h2>How to Edit Splodes</h2>
+		<div class="panel-group" id="accordion">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapse1">How to Edit Splodes</a>
+					</h4>
+				</div>
+			<div id="collapse1" class="panel-collapse collapse in">
+				<div class="panel-body">The Edit view allows you to tweek and tune Splode Emitters and Particles to your liking. Settings are grouped by type on the side of the Edit view.  Tapping on a group name will expand or contract it to show or hide the settings in that group.  Most parameters have a slider which you can drag left or right to alter its value.</div>
+			</div>
+		</div>
+
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Reset</a>
+					</h4>
+				</div>
+			<div id="collapse2" class="panel-collapse collapse in">
+				<div class="panel-body">Tapping this icon will give you the option of reseting your Splode to its default settings.</div>
+			</div>
+		</div>
+
+
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapse3">View</a>
+					</h4>
+				</div>
+			<div id="collapse3" class="panel-collapse collapse in">
+				<div class="panel-body">Tapping this icon will hide the settings panel, giving you more room to test your Splode.  Just tap again to bring the controls back.</div>
+			</div>
+		</div>
+
+
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Screenshot</a>
+					</h4>
+				</div>
+			<div id="collapse4" class="panel-collapse collapse in">
+				<div class="panel-body">Tapping this icon captures an image of your Splode which will be used as a thumbnail to help you select Splodes.</div>
+			</div>
+		</div>
+
+
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapse5">My Splodes</a>
+					</h4>
+				</div>
+			<div id="collapse5" class="panel-collapse collapse in">
+				<div class="panel-body">Displays a collection of your Splodes which you can pick for editing. <strong>Note</strong>: if you pick a Splode which is not in the current scene, a copy will be made and placed in the current scene for you.</div>
+			</div>
+		</div>
+
+
+
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapse6">Splode Name</a>
+					</h4>
+				</div>
+			<div id="collapse6" class="panel-collapse collapse in">
+				<div class="panel-body">Tap on the name of the current Splode in the center of the header to change its title.</div>
+			</div>
+		</div>
+			
+
+	<h2>Images</h2>
+		<div class="panel-group" id="accordion2">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion2" href="#collapse7">Images</a>
+					</h4>
+				</div>
+			<div id="collapse7" class="panel-collapse collapse in">
+				<div class="panel-body">Splode Lab lets you use up to two textures per emitter.  It is more work for splode lab to use two images, so only use two when it helps achieve the effect you are after.  The images are drawn in the same space per particle, so choosing tiny images over big ones may not have a visible effect.</div>
+			</div>
+		</div>
+
+
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion2" href="#collapse8">Image</a>
+					</h4>
+				</div>
+			<div id="collapse8" class="panel-collapse collapse in">
+				<div class="panel-body">Tapping on the image area allows you to select an image for the Splode.  To stop using a texture select the very first blank texture.</div>
+			</div>
+		</div>
+
+
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion2" href="#collapse9">Blending</a>
+					</h4>
+				</div>
+			<div id="collapse9" class="panel-collapse collapse in">
+				<div class="panel-body">Select which type of blending you wish to apply to the image.</div>
+			</div>
+		</div>
+
+
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion2" href="#collapse10">Default</a>
+					</h4>
+				</div>
+			<div id="collapse10" class="panel-collapse collapse in">
+				<div class="panel-body">Draws the image with basic alpha blending so particles overlap nicely.</div>
+			</div>
+		</div>
+				
+
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion2" href="#collapse11">Bright</a>
+					</h4>
+				</div>
+			<div id="collapse11" class="panel-collapse collapse in">
+				<div class="panel-body">When particles overlap they will get brighter and brighter.</div>
+			</div>
+		</div>
+
+
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion2" href="#collapse12">Blast</a>
+					</h4>
+				</div>
+			<div id="collapse12" class="panel-collapse collapse in">
+				<div class="panel-body">Like the bright blending, but with a harsher effect. Good for plasma or electrical splodes.</div>
+			</div>
+		</div>
+
+
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion2" href="#collapse13">Texture Delay (if two textures)</a>
+					</h4>
+				</div>
+			<div id="collapse13" class="panel-collapse collapse in">
+				<div class="panel-body">At zero, only the second texture will be drawn for the life of the particle, or you can set a percentage of the lifespan at which the second texture will appear.</div>
+			</div>
+		</div>
+
+
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion2" href="#collapse14">Delay Noise (if two textures)</a>
+					</h4>
+				</div>
+			<div id="collapse14" class="panel-collapse collapse in">
+				<div class="panel-body">Noise will randomly switch to the second texture the higher the number the sooner the switch can happen.</div>
+</div>
+</div>
+
+
+	<h2>Emitter</h2>
+		<div class="panel-group" id="accordion.emitter">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion.emitter" href="#collapse15">Emitters</a>
+					</h4>
+				</div>
+			<div id="collapse15" class="panel-collapse collapse in">
+				<div class="panel-body">An <strong>Emitter</strong> is what launches <strong>Particles</strong> into your scene. Think of it as a sparkler you might wave around on New Years Eve.  The sparkler is emitting particles which are tied to its motion.  You place Emitters by tapping on the display, and you can give them additional motion by changing the parameters in this section.  When first starting out you may want to leave these at their default values.</div>
+      </div>
+    </div>
+
+
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion.emitter" href="#collapse16">Emitter Lifespan</a>
+					</h4>
+				</div>
+			<div id="collapse16" class="panel-collapse collapse in">
+				<div class="panel-body">This is how long the Emitter will continue to emit particles.  This number should be set low for an Emitter you wish to draw with, or higher for a tap and release type.</div>
+      </div>
+    </div>
+
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion.emitter" href="#collapse17">Particles per second</a>
+					</h4>
+				</div>
+			<div id="collapse17" class="panel-collapse collapse in">
+				<div class="panel-body">Controls how many Particles will be released each second.  You should use the smallest number that achieves the effect you desire.</div>
+      </div>
+    </div>
+
+
+
+<h2>Particles</h2>
+		<div class="panel-group" id="accordion3">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion3" href="#collapse18">Particles</a>
+					</h4>
+				</div>
+			<div id="collapse18" class="panel-collapse collapse in">
+				<div class="panel-body">These are the bits of Splode that are released from an emitter as it moves through a scene.</div>
+      </div>
+    </div>
+
+
+
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion3" href="#collapse19">Particle Lifespan</a>
+					</h4>
+				</div>
+			<div id="collapse19" class="panel-collapse collapse in">
+				<div class="panel-body">This controls how many seconds each Particle will live once launched.</div>
+      </div>
+    </div>
+
+
+
+
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion3" href="#collapse20">Lifespan Noise</a>
+					</h4>
+				</div>
+			<div id="collapse20" class="panel-collapse collapse in">
+				<div class="panel-body">When set to zero, all particles will have the same lifespan.  As the value increases, they will have a chance to have a shorter and shorter lifespan.</div>
+		</div>
+	</div>
+			
+
+<h2>Launch</h2>
+		<div class="panel-group" id="accordion4">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion4" href="#collapse21">Particle Launch</a>
+					</h4>
+				</div>
+			<div id="collapse21" class="panel-collapse collapse in">
+				<div class="panel-body">Here you can control the shape of your Particles movement.</div>
+		</div>
+	</div>
+
+
+			
+
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion4" href="#collapse22">Spread</a>
+					</h4>
+				</div>
+			<div id="collapse22" class="panel-collapse collapse in">
+				<div class="panel-body">A value of zero will spray particles in a straight line.  As you increase the setting, they will fill a bigger and bigger wedge of a circle.  At 360 degrees, they will be launched in all directions.</div>
+		</div>
+	</div>
+
+
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion4" href="#collapse23">Direction</a>
+					</h4>
+				</div>
+			<div id="collapse23" class="panel-collapse collapse in">
+				<div class="panel-body">Lets you pick which way the spray of particles will face. Zero degrees fires to the right, 90 degress is straight up, and so on.</div>
+		</div>
+	</div>
+
+
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion4" href="#collapse24">Radius</a>
+					</h4>
+				</div>
+			<div id="collapse24" class="panel-collapse collapse in">
+				<div class="panel-body">You can determine how far from the location of the emitter a particle should start its life.  Zero will place them right on the spot and a value of one will be approximately one screen height away.</div>
+		</div>
+	</div>
+
+
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion4" href="#collapse25">Radius Noise</a>
+					</h4>
+				</div>
+			<div id="collapse25" class="panel-collapse collapse in">
+				<div class="panel-body">A value of zero will cause all the particles to start the same distance away.  As you increase the setting they have a chance of being closer and closer to the center.</div>
+		</div>
+	</div>
+
+
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion4" href="#collapse26">Orbital Velocity</a>
+					</h4>
+				</div>
+			<div id="collapse26" class="panel-collapse collapse in">
+				<div class="panel-body">Rate at which particles will orbit emitter center.  Applied before velocity/acceleration.  Creates interesting movement patterns.</div>
+		</div>
+	</div>
+
+
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion4" href="#collapse27">Use Heading</a>
+					</h4>
+				</div>
+			<div id="collapse27" class="panel-collapse collapse in">
+				<div class="panel-body">When this feature is enabled the direction of release will be controlled by the movement of your finger on the screen.  The <strong>direction</strong> value will be added as well so you can create an offset.</div>
+		</div>
+	</div>
+
+
+			
+
+<h2>Size</h2>
+		<div class="panel-group" id="accordion.size">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion.size" href="#collapse28">Size</a>
+					</h4>
+				</div>
+			<div id="collapse28" class="panel-collapse collapse in">
+				<div class="panel-body">The textures available come in a variety of sizes for different effects.  Here you can decide to use them as larger or smaller sizes, and change them over the life of the particle.  You might want to start with large particles that end their life at a fraction of that size, for example.</div>
+		</div>
+	</div>
+
+
+
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion.size" href="#collapse29">Texture Scale</a>
+					</h4>
+				</div>
+			<div id="collapse29" class="panel-collapse collapse in">
+				<div class="panel-body">Determines the multiple of the native texture size.</div>
+		</div>
+	</div>
+
+
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion.size" href="#collapse30">Texture Noise</a>
+					</h4>
+				</div>
+			<div id="collapse30" class="panel-collapse collapse in">
+				<div class="panel-body">Higher values give a chance that the texture will be smaller and smaller.</div>
+		</div>
+	</div>
+
+
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion.size" href="#collapse31">Starting Size</a>
+					</h4>
+				</div>
+			<div id="collapse31" class="panel-collapse collapse in">
+				<div class="panel-body">This is a percentage of the texture's size that the Particle will have at the start of its life.  It will move from this value to the 
+<strong>Ending Size</strong> over time.</div>
+		</div>
+	</div>
+
+
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion.size" href="#collapse32">Ending Size</a>
+					</h4>
+				</div>
+			<div id="collapse32" class="panel-collapse collapse in">
+				<div class="panel-body">This is a percentage of the texture's size that the particle will have at the end of its life.  It will move to this value from the 
+<strong>Starting Size</strong> over time.</div>
+		</div>
+	</div>
+
+			
+
+<h2>Speed</h2>
+		<div class="panel-group" id="accordion.speed">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion.speed" href="#collapse33">Particle Speed</a>
+					</h4>
+				</div>
+			<div id="collapse33" class="panel-collapse collapse in">
+				<div class="panel-body">These values determine how fast a Particle will move away from its starting position <strong>in a straight line</strong>.  By tuning these values you can simulate Particles slowing down to a stop as they fade away or racing away off the screen.</div>
+		</div>
+	</div>
+
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion.speed" href="#collapse34">Velocity</a>
+					</h4>
+				</div>
+			<div id="collapse34" class="panel-collapse collapse in">
+				<div class="panel-body">The speed of the Particle in roughly screen heights per second.</div>
+		</div>
+	</div>
+
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion.speed" href="#collapse35">Velocity Noise</a>
+					</h4>
+				</div>
+			<div id="collapse35" class="panel-collapse collapse in">
+				<div class="panel-body">Higher values give a chance the Particle will move slower and slower than the max velocity.</div>
+		</div>
+	</div>
+			
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion.speed" href="#collapse36">Acceleration</a>
+					</h4>
+				</div>
+			<div id="collapse36" class="panel-collapse collapse in">
+				<div class="panel-body">Positive values will make the particle move faster and faster, while negative ones will slow it down and eventually <strong>reverse</strong> its direction!</div>
+		</div>
+	</div>
+
+
+
+<h2>Spin</h2>
+		<div class="panel-group" id="accordion.speed">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion.speed" href="#collapse37">Spinning Particles</a>
+					</h4>
+				</div>
+			<div id="collapse37" class="panel-collapse collapse in">
+				<div class="panel-body">By default, the particles will all be oriented in the same way, straight up.  Use these parameters to make them tumble and flicker as they move.  <strong>Note:</strong> rotating the particles is more work for Splode Lab than leaving them straight up, so don't spin them if it isn't enhancing the visual effect you are after.</div>
+		</div>
+	</div>
+
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion.speed" href="#collapse38">Velocity</a>
+					</h4>
+				</div>
+			<div id="collapse38" class="panel-collapse collapse in">
+				<div class="panel-body">This is the angular velocity of the particle in degrees per second.  At 360, it will rotate around once in a second.  You can pick to rotate clockwise or anti-clockwise by setting positive or negative numbers.</div>
+		</div>
+	</div>
+
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion.speed" href="#collapse39">Acceleration</a>
+					</h4>
+				</div>
+			<div id="collapse39" class="panel-collapse collapse in">
+				<div class="panel-body">You can increase or decrease the angular velocity with this parameter.</div>
+		</div>
+	</div>
+
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion.speed" href="#collapse40">Noise</a>
+					</h4>
+				</div>
+			<div id="collapse40" class="panel-collapse collapse in">
+				<div class="panel-body">At higher levels there will be more variety in the starting orientation of the particles, both clockwise and anti-clockwise.</div>
+		</div>
+	</div>
+
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion.speed" href="#collapse41">Twinkle</a>
+					</h4>
+				</div>
+			<div id="collapse41" class="panel-collapse collapse in">
+				<div class="panel-body">Turning this setting on will cause the particles to blink on and off as they <strong>rotate</strong>.  The faster they are rotating, the faster they will blink!  This is a great effect when trying to simulate fireworks.</div>
+		</div>
+	</div>
+			
+
+<h2>Gravity</h2>
+		<div class="panel-group" id="accordion.gravity">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion.gravity" href="#collapse42">Gravity Effect on Particles</a>
+					</h4>
+				</div>
+			<div id="collapse42" class="panel-collapse collapse in">
+				<div class="panel-body">This is the final force applied to your particles. It can help unify them in a scene if you share common settings between splodes.  But because we like variety and experimentation, we let you set them as you like.</div>
+		</div>
+	</div>
+
+
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion.gravity" href="#collapse43">Horizontal</a>
+					</h4>
+				</div>
+			<div id="collapse43" class="panel-collapse collapse in">
+				<div class="panel-body">Simulates a gravitation pull from the left or right edges of the view.</div>
+		</div>
+	</div>
+
+
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion.gravity" href="#collapse44">Vertical</a>
+					</h4>
+				</div>
+			<div id="collapse44" class="panel-collapse collapse in">
+				<div class="panel-body">Simulates a gravitation pull from the top or bottom edges of the view. A negative value is a good way to simulate the earth's pull on objects.</div>
+		</div>
+	</div>
+
+
+<h2>Color</h2>
+		<div class="panel-group" id="accordion.color">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion.color" href="#collapse45">Particle Colors</a>
+					</h4>
+				</div>
+			<div id="collapse45" class="panel-collapse collapse in">
+				<div class="panel-body">These values give you a bit of control over the color of your Particles.  It works best on white particle textures but can be used as you like.  Choose full white to reset the effect to default.</div>
+		</div>
+	</div>
+
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion.color" href="#collapse46">Starting</a>
+					</h4>
+				</div>
+			<div id="collapse46" class="panel-collapse collapse in">
+				<div class="panel-body">Set the color to be used at the start of the Particle's life.  Tapping this will open a dialog where you can pick the color; select done to exit.</div>
+		</div>
+	</div>
+			
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion.color" href="#collapse47">Ending</a>
+					</h4>
+				</div>
+			<div id="collapse47" class="panel-collapse collapse in">
+				<div class="panel-body">Set the color to be used at the end of the particle's life.  Tapping this will open a dialog where you can pick the color; select done to exit.</div>
+		</div>
+	</div>
+
+
+	<h2>Emitter Move</h2>
+			<div class="panel-group" id="accordion.emitter_move">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion.emitter_move" href="#collapse48">Velocity and Acceleration</a>
+					</h4>
+				</div>
+				<div id="collapse48" class="panel-collapse collapse in">
+					<div class="panel-body">These parameters control the movement of the Emitter after it is placed in the scene.  Generally set to zero unless you are looking for more complex motion in your Splode.</div>
+		</div>
+	</div>
+
+				<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion.emitter_move" href="#collapse49">Angle and Angular Velocity</a>
+					</h4>
+				</div>
+			<div id="collapse49" class="panel-collapse collapse in">
+				<div class="panel-body">These parameters control the rotational movement of the Emitter after it is placed in the scene.  Generally set to zero unless you are looking for more complex motion in your Splode.</div>
+		</div>
+	</div>
+	
+				<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion.emitter_move" href="#collapse50">Noise</a>
+					</h4>
+				</div>
+			<div id="collapse50" class="panel-collapse collapse in">
+				<div class="panel-body">This is a more advanced parameter that adds some chaotic movement to your particles.  Noise A and B will alter the X and Y positions over time, while C allows you to dampen the effect which can be quite extreme.  When used with lots of small particles, this setting can deliver some dramtic effects.</div>
+		</div>
+	</div>
+</div>
+
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>		
+
+
+		
+</body>
+</html>
