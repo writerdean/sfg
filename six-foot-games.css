@@ -1,15 +1,40 @@
+html, body {
+  height: 95%;
+  margin: 0;
+}
+
 body {
   background-color: black;
   color: white;
+  font-size: 4vw;
 }
+p {
+  font-size: 2.5vw;
+}
+
+.content {
+  min-height: calc(100vh - 70px);
+}
+.footer {
+  height: 50px;
+}
+
 .w3-sidebar {
   color: black;
 }
 
 ul {
   list-style-type: none;
+<<<<<<< HEAD
   }
 
   li {
     display: inline;
   }
+=======
+}
+
+li {
+  display: inline;
+}
+>>>>>>> responsive video and text
