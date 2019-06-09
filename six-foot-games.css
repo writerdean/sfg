@@ -1,3 +1,15 @@
-.border {
-  border
+body {
+  background-color: black;
+  color: white;
 }
+.w3-sidebar {
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+  }
+
+  li {
+    display: inline;
+  }
