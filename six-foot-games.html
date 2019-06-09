@@ -1,43 +1,56 @@
 <!DOCTYPE html>
 <html>
-<title>Splode Lab</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
-<script src='app.js'></script>
-<body>
+  <title>Splode Lab</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="six-foot-games.css">
+  <script src='app.js'></script>
+  <body>
 
-<!-- Side Navigation -->
-<nav class="w3-sidebar w3-bar-block w3-card w3-animate-left w3-center" style="display:none" id="mySidebar">
-  <h1 class="w3-xxxlarge w3-text-theme">Side Navigation</h1>
-  <button class="w3-bar-item w3-button" onclick="w3_close()">Close <i class="fa fa-remove"></i></button>
-  <a href="ComposerHelp.html" class="w3-bar-item w3-button">Composer Help</a>
-  <a href="EditorHelp" class="w3-bar-item w3-button">Editor Help</a>
-  <a href="TextEditorHelp" class="w3-bar-item w3-button">Text Editor Help</a>
-  <a href="#" class="w3-bar-item w3-button">Background Help</a>
-</nav>
+    <!-- Side Navigation -->
+    <nav class="w3-sidebar w3-bar-block w3-card w3-animate-left w3-center" style="display:none" id="mySidebar">
+    <h1 class="w3-xxxlarge w3-text-theme">Side Navigation</h1>
+    <button class="w3-bar-item w3-button" onclick="w3_close()">Close 
+      <i class="fa fa-remove"></i>
+    </button>
+    <a href="ComposerHelp.html" class="w3-bar-item w3-button">Composer Help</a>
+    <a href="EditorHelp.html" class="w3-bar-item w3-button">Editor Help</a>
+    <a href="TextEditorHelp.html" class="w3-bar-item w3-button">Text Editor Help</a>
+    <!-- <a href="#" class="w3-bar-item w3-button">Background Help</a> -->
+    </nav>
 
-<!-- Header -->
-<header class="w3-container w3-theme w3-padding" id="myHeader">
-  <i onclick="w3_open()" class="fa fa-bars w3-xlarge w3-button w3-theme"></i> 
-  <div class="w3-center">
-    <div class="w3-padding-32">
-        <iframe width="360" height="200" src="https://www.youtube.com/embed/SzuZJ36u7MA?controls=0" frameborder="0" allow="autoplay=1"></iframe>
-      <button class="w3-btn w3-large w3-dark-grey w3-hover-light-grey" onClick="window.location.href = 'https://itunes.apple.com/au/app/splode-lab-ex/id1275951874?mt=8' ">Download</button>
+    <!-- Header -->
+    <header class="w3-container w3-theme w3-padding" id="myHeader">
+     <i onclick="w3_open()" class="fa fa-bars w3-xlarge w3-button w3-theme"></i> 
+    </header>
+
+    <div class="w3-center">
+      <div class="w3-padding-32">
+        <iframe style="width:100%; height:50vw"  src="https://www.youtube.com/embed/qykASdxv8XQ?autoplay=1&loop=1&playlist=qykASdxv8XQ&controls=0" frameborder="0" ></iframe>
+          <div class="download center">
+            <a href="https://itunes.apple.com/us/app/splode-lab-ex/id1275951874?ls=1&mt=8?showinfo=0">
+            <img src="images/download_on_the_app_store_badge_us-uk_135x40.svg" width="25%" height="auto"> </a>
+          </div>
+          <div class="create center">
+              <span>Imagine</span><span>Create</span><span>Share</span>
+          </div>
+          
+
+          <p style="text-align:center; font-size:12px">Create dynamic visual effects on your iOS device <br>with Splode Lab. <br>Tons of control, tons of options, tons of fun.  <br>Draw with fire.  Tap to explode<br>Create mind blowing displays. <br>Put your headphones on and make some Splode!</p>
+      </div>
     </div>
-  </div>
-</header>
 
-
-<!-- Footer -->
-<footer class="w3-container w3-theme-dark w3-padding-16">
-  <!-- <h3>Footer</h3> -->
-  <p style="text-align:center; font-size:12px">Create dynamic visual effects on your iOS device <br>with Splode Lab. <br>Tons of control, tons of options, tons of fun.  <br>Draw with fire.  Tap to explode<br>Create mind blowing displays. <br>Put your headphones on and make some Splode!</p>
-  
-</footer>
-
-</body>
-
+    <!-- Footer -->
+      <footer class="w3-container w3-theme-dark w3-padding-16">
+        <ul>
+          <li><a href="https://www.youtube.com/channel/UCHk6P_hwPrBYFRPMgERKoww" target="_blank"> <img class="icon" src="images/youtubedark.png" alt="" height="20px" width="auto" /></a></li>
+          <li><a href="https://www.instagram.com/splodelab/" target="_blank"> <img class="icon" src="images/instagram.png" alt="" height="25px" width="auto" /></a></li>
+          <li><a href="https://www.facebook.com/splodelab/" target="_blank"> <img class="icon" src="images/flogo-RGB-HEX-Blk-512.png" alt="" height="25px" width="auto" /></a></li>
+          <li><a href="https://splodelab.tumblr.com" target="_blank"> <img class="icon" src="images/Tumblr_Logos_2018.03.06_iOS Icon Black.png" alt="" height="25px" width="auto" /></a></li>
+        </ul>
+      </footer>
+  </body>
 </html>
