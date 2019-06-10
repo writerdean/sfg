@@ -3,21 +3,29 @@ html, body {
   margin: 0;
 }
 
+/* div {
+  border: solid white 5px;
+} */
 body {
   background-color: black;
   color: white;
   font-size: 4vw;
+  /* border: solid red 5px; */
 }
 p {
   font-size: 2.5vw;
 }
 
-.content {
+/* .content {
   min-height: calc(100vh - 70px);
 }
 .footer {
   height: 50px;
+} */
 
+.footer{     
+  position: sticky; 
+  bottom: 0;
 }
 
 .w3-sidebar {
@@ -35,4 +43,16 @@ li {
 
 .padding{
   padding: 0 15px;
+}
+
+#button-right{
+  position:absolute; 
+  top:0; 
+  right:0;
+  margin-bottom: 15px;
+  /* text-align: right !important; */
+}
+
+#help-menu {
+  margin: 25px 0;
 }
