@@ -13,7 +13,7 @@ body {
   /* border: solid red 5px; */
 }
 p {
-  font-size: 2.5vw;
+  font-size: 3vw;
 }
 
 /* .content {
@@ -53,6 +53,7 @@ li {
   /* text-align: right !important; */
 }
 
-#help-menu {
+.help-menu {
   margin: 25px 0;
+  font-size: 5vw;
 }
